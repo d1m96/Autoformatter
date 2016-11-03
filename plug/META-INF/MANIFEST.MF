@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plug
+Bundle-SymbolicName: plug;singleton:=true
+Bundle-Version: 1.0.0.201611031248
+Bundle-ClassPath: plug_1.0.0.201611031248.jar
+Bundle-Activator: plug.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors
+Bundle-ActivationPolicy: lazy
